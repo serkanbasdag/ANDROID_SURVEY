@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="372dp"
+        android:layout_height="496dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ankete Hoşgeldiniz"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Soru: Cinsiyetiniz ?" />
+
+        <RadioGroup
+            android:id="@+id/rbgCinsiyet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbErkek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Erkek" />
+
+            <RadioButton
+                android:id="@+id/rbKadin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kadın" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Soru: Hangi Takımı Tutuyorsunuz ?" />
+
+        <RadioGroup
+            android:id="@+id/rbgTakim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbFb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fenerbahçe" />
+
+            <RadioButton
+                android:id="@+id/rbGs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Galatasaray" />
+
+            <RadioButton
+                android:id="@+id/rbBjk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Beşiktaş" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Soru: Hangi Programlama Dillerini Biliyorsunuz ?" />
+
+        <CheckBox
+            android:id="@+id/cbc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C++" />
+
+        <CheckBox
+            android:id="@+id/cbjava"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Java" />
+
+        <CheckBox
+            android:id="@+id/cbjavas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JavaScript" />
+
+        <CheckBox
+            android:id="@+id/cbphy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phyton" />
+
+        <CheckBox
+            android:id="@+id/cbphp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Php" />
+
+        <Button
+            android:id="@+id/bGonder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gönder" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
